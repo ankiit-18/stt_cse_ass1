@@ -24,5 +24,4 @@ jobs:
 
       - name: Run Pylint (fail if score below threshold)
         run: |
-          # Lint both src/ and (optionally) tests/
           pylint src --fail-under=9.5
